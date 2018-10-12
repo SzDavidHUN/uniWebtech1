@@ -1,0 +1,44 @@
+body {
+    background-color: #FAFAFA;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menubar {
+    background-color: rgb(12, 12, 12);
+}
+
+.menubar-right   {
+    float: right;
+}
+
+.menubar {
+    color: #FAFAFA;
+    padding: 14px 16px;
+}
+
+.menubar .menubar-title {
+    line-height: normal;
+    font-size: 1.5em; /* EZ! */
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+.menubar .menubar-item {
+    padding: 14px 16px;
+}
+
+.menubar a:link, a:visited, a:hover, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menubar .selected {
+    color: black;
+    background-color: #ffaa00;
+}
+
+.menubar a:hover {
+    background-color: red;
+}
